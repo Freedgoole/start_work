@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import "../App.css";
 
 class Watch extends Component {
+
   render() {
-    return <h1>adasd</h1>;
+    return <h1>{this.props.conter}</h1>;
   }
 }
 
